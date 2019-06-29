@@ -1,23 +1,18 @@
 # Site settings
-title: "gjuniioor"
-bye_message: "Thx!"
-baseurl: "/clyell/"
-url: "https://gjuniioor.github.io"
-disqus: gjuniioor
+title: "@althonos"
+baseurl: "/"
+url: "https://althonos.github.io"
 
 # Header settings
-nick: "gjuniioor"
+nick: "althonos"
 mail:
     domain: "protonmail"
     ext: "ch"
 source_code:
     server: "github.com"
-    nick: "gjuniioor"
-blog:
-    server: "wordpress.com"
-    nick: "gjuniioor"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+    nick: "althonos"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: /:categories/:title/
