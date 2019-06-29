@@ -10,7 +10,14 @@ layout: page
         {% if page.author %} • {{ page.author }}{% endif %}
         {% if page.meta %} • {{ page.meta }}{% endif %}
         •
-        {% for category in page.tags %}<span><a href="{{ site.baseurl }}category/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %},{% endif %}</span>{% endfor %}
+        {% for category in page.tags %}
+        <span>
+          <a href="{{ 'categories/#' | append: category | relative_url }}" class="reserved">
+            {{ category }}
+          </a>
+          {% if forloop.last != true %},{% endif %}
+        </span>
+        {% endfor %}
     </p>
   </header>
 
@@ -18,9 +25,9 @@ layout: page
   {{ content }}
   </article>
 
-	<p class="feed-recomendation">
+	<!-- <p class="feed-recomendation">
 		Gostou do post? Assina o <a href="{{ site.baseurl }}feed/">feed</a> e seja feliz!!
-	</p>
+	</p> -->
 
   {% include disqus.html %}
 

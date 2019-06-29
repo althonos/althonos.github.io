@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Category List"
-permalink: /category/
+title: "Categories"
+permalink: /categories/
 ---
 
 <ul class="tag-box inline">

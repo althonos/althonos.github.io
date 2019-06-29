@@ -1,13 +1,10 @@
 # Site settings
-title: "@althonos"
-baseurl: "/"
+title: "~althonos"
+baseurl: ""
 url: "https://althonos.github.io"
 
 # Header settings
 nick: "althonos"
-mail:
-    domain: "protonmail"
-    ext: "ch"
 source_code:
     server: "github.com"
     nick: "althonos"
