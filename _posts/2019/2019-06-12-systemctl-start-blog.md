@@ -1,7 +1,7 @@
 ---
 layout: post
 title:	"systemctl start blog"
-date:	2019-06-17 12:00:00
+date:	2019-06-12 12:00:00
 categories:
     - blog
     - misc
