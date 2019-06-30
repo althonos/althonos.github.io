@@ -101,15 +101,16 @@ reduce the total number of atomic operations; for that, we can only bitmask once
 and then use shifts to put the decoded bits at the right location in the final
 byte.
 
-# Masking the pixel only once:
+# Masking the pixel only once
 
-After decoding PNG data with `lodepng`, we're left with a `Bitmap<RGBA>` (that
-is actually a `Vec<RGBA>` with the image dimensions stored alongside).
-Fortunately, the `RGBA` struct [is declared as
-`#[repr(C)]`](https://docs.rs/rgb/0.8.13/src/rgb/lib.rs.html#71-90)
-so we should be able to transmuste that type into a slice of 32-bit integers.
-This is not 100% safe since we could face alignment errors, but that should work
-most of the time.
+After decoding PNG data with `lodepng`, we're left with a
+[`Bitmap<RGBA>`](https://docs.rs/lodepng/2.4.2/lodepng/struct.Bitmap.html)
+(that is actually a `Vec<RGBA>` with the image dimensions stored alongside).
+Fortunately, the [`RGBA`](https://docs.rs/rgb/0.8.13/rgb/struct.RGBA.html) struct
+[is declared as `#[repr(C)]`](https://docs.rs/rgb/0.8.13/src/rgb/lib.rs.html#71-90)
+so we should be able to transmute that into a slice of 32-bit integers.
+*This is not 100% safe since we could face alignment errors, but that should work
+most of the time.*
 
 Here is the algorithm (with `0` bits shown as `_` for legibility purposes) on
 a little-endian platform:
@@ -218,7 +219,7 @@ one, so any recent CPU has both of these. *\*Sigh.\**
 # Conclusion
 
 I tried some other implementations, some iterating in reversed order (hoping to
-replace an `inc / cmp / jnz` block with a `dec / jz` block), some shifting
+replace an `inc/cmp/jne` block with a `dec/jnz` block), some shifting
 inplace: turns out the algorithm described above is one of the fastest ! Below
 are the benchmark with the `avx` and `bmi2` CPU features enabled, run on an `i7-8550U` CPU:
 
