@@ -1,6 +1,6 @@
 body {
     border-top: 1px dashed rgba(255,255,255,0.5);
-    background-color: #000000;
+    background-color: #222;
     margin: 0 auto;
     padding: 0;
     font-family: monospace;
@@ -11,16 +11,16 @@ body {
     //width: 800px;
 }
 h1 {
-  color: rgba(220,220,0,0.8);
+  color: rgba(255,204,102,0.8);
   font-size: 24px;
   font-family: "Droid Sans Mono",monospace;
   font-weight: bold;
 }
-h2 { color: rgba(220,220,0,0.7); }
-h3 { color: rgba(220,220,0,0.6); }
-h4 { color: rgba(220,220,0,0.5); }
-h5 { color: rgba(220,220,0,0.4); }
-h6 { color: rgba(220,220,0,0.3); }
+h2 { color: rgba(255,204,102,0.7); }
+h3 { color: rgba(255,204,102,0.6); }
+h4 { color: rgba(255,204,102,0.5); }
+h5 { color: rgba(255,204,102,0.4); }
+h6 { color: rgba(255,204,102,0.3); }
 
 footer {
     font-style: italic;
@@ -32,25 +32,25 @@ footer {
 footer p {
     text-align: left;
     margin: 0;
-    /* color: rgba(220,220,0,0.7); */
-    color: rgba(220,220,0,0.8);
+    /* color: rgba(255,204,102,0.7); */
+    color: rgba(255,204,102,0.8);
 }
 
 
 header {
     margin-top: 25px;
     margin-bottom: 10px;
-    color: rgba(220,220,0,0.9);
+    color: rgba(255,204,102,0.9);
 }
 header p {
     text-align: left;
     margin: 0;
-    /* color: rgba(220,220,0,0.7); */
+    /* color: rgba(255,204,102,0.7); */
     color: rgba(255,255,255,0.5);
 }
 a {
     text-decoration: none;
-    color: rgba(220,220,0,0.8);
+    color: rgba(255,204,102,0.8);
 }
 .menu {
     border-top: 1px dashed rgba(255,255,255,0.5);
@@ -68,12 +68,12 @@ a {
 }
 .menu ul li a {
     text-decoration: none;
-    color: rgba(220,220,0,0.8);
+    color: rgba(255,204,102,0.8);
 }
 .menu ul li a:hover {
     padding: 2px;
-    border-left: 1px dashed rgba(220,220,0,0.5);
-    border-right: 1px dashed rgba(220,220,0,0.5);
+    border-left: 1px dashed rgba(255,204,102,0.5);
+    border-right: 1px dashed rgba(255,204,102,0.5);
 }
 main {
     text-align: left;
@@ -82,7 +82,7 @@ main p {
     text-align: justify;
 }
 a:hover {
-		color: rgba(220,220,0,0.6);
+		color: rgba(255,204,102,0.6);
 }
 pre {
     background-color: rgba(255,255,255,0.05);
@@ -155,10 +155,10 @@ table a {
     color: rgba(255,255,255,0.3);
 }
 .reserved {
-    color: rgba(220,220,0,0.4);
+    color: rgba(255,204,102,0.4);
 }
 .string {
-    color: rgba(220,220,0,0.7);
+    color: rgba(255,204,102,0.7);
 }
 .function {
     color: rgba(255,255,255,0.5);

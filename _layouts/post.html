@@ -12,10 +12,7 @@ layout: page
         •
         {% for category in page.tags %}
         <span>
-          <a href="{{ 'categories/#' | append: category | relative_url }}" class="reserved">
-            {{ category }}
-          </a>
-          {% if forloop.last != true %},{% endif %}
+          <a href="{{ 'categories/#' | append: category | relative_url }}" class="reserved">{{ category }}</a>{% if forloop.last != true %}, {% endif %}
         </span>
         {% endfor %}
     </p>
