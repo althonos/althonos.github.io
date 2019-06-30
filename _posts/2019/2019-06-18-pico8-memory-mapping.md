@@ -58,6 +58,7 @@ platform agnostic), but the logic can be abstracted away with the
 how the `0x5f28..0x5f2b` memory range (draw camera position) is declared:
 
 ```rust
+/// The PICO-8 Camera position in RAM.
 #[repr(C)]
 #[derive(Clone)]
 pub struct RamCameraPosition {
@@ -74,6 +75,6 @@ impl RamCameraPosition {
 ```
 
 The whole RAM can be addressed directly using the `peek` and `poke` functions,
-but since all types are `u8` or `[u8; N]` we are never violating possible
-assumptions made by Rust, and our types are valid at all time: in other words,
-the memory implementation is **safe** !
+but since all types are `u8` or `[u8; N]` we are never violating any assumptions
+made by Rust (actually we are preventing Rust to make some assumptions), and our
+values are valid at all time: in other words, the memory implementation is **safe** !
