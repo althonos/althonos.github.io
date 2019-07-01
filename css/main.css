@@ -3,19 +3,14 @@ body {
     background-color: #222;
     margin: 0 auto;
     padding: 0;
-    font-family: monospace;
-    font-size: 12px;
+    font-family: "Droid Sans Mono", monospace;
+    font-size: 14px;
     line-height: unset !important;
     color: rgba(255,255,255,0.6);
     text-align: center;
     //width: 800px;
 }
-h1 {
-  color: rgba(255,204,102,0.8);
-  font-size: 24px;
-  font-family: "Droid Sans Mono",monospace;
-  font-weight: bold;
-}
+h1 { color: rgba(255,204,102,0.8); font-weight: bold; }
 h2 { color: rgba(255,204,102,0.7); }
 h3 { color: rgba(255,204,102,0.6); }
 h4 { color: rgba(255,204,102,0.5); }
@@ -93,10 +88,10 @@ pre {
     border-radius: 3px;
     overflow:auto;
 		font-family: monospace;
-		font-size: 12px;
+		font-size: 14px;
 		color: rgba(255,255,255,0.4);
 }
-img {
+/* img {
     width: 80%;
     margin-left: 10%;
     border: 1px dashed rgba(255,255,255,0.5);
@@ -108,7 +103,7 @@ img {
 table img {
     border: 0px;
     margin-left: 0;
-}
+} */
 iframe {
     width: 750px;
     height: 400px;
@@ -168,7 +163,7 @@ table a {
 }
 
 blockquote {
-  border-left: unset;
-margin: unset;
-    font-size: 12px;
+    border-left: unset;
+    margin: unset;
+    font-size: 14px;
 }
