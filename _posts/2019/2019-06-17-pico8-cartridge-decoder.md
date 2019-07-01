@@ -19,7 +19,7 @@ Remember that
 that goes ***"premature optimisation is the root of all evil"***? Yeah, this is
 yet another post about that.
 
-# Cartridge format
+## Cartridge format
 
 PICO-8 cartridges are stored in PNG format, which is perturbing at first
 since clicking on the *Download cart* button on the
@@ -48,14 +48,13 @@ a PNG image instead, but that image actually contains the cartridge data itself!
         <img src="https://www.lexaloffle.com/bbs/cposts/ge/getoutxmas-0.p8.png" style="width:160px; height:205px;" alt="Get Out Of This Dungeon"/>
       </a>
     </td>
-
   </tr>
   <tr>
     <td colspan="100%">
       <p style="margin: 10px; text-align: justify;"><i>
         Some nice cartridges found online. If you take a closer look, you'll
         notice the gray area is actually not a flat color but show a lot of
-        artifacts, as in a JPEG image.
+        artifacts, as in a JPEG image, due to the hidden data described below.
       </i></p>
     </td>
   </tr>
@@ -68,7 +67,7 @@ from the PNG first. The two PNG decoders I could find for Rust were
 I found the latter easier to use, as it decoded the complete image at once,
 which is okay since cartridge images are fairly small (160x205 pixels).
 
-# Decoding the naive way
+## Decoding the naive way
 
 The PICO-8 cartridge is encoded in the bitmap using a
 [**steganographic** encoding](https://en.wikipedia.org/wiki/Steganography): each
@@ -101,7 +100,7 @@ reduce the total number of atomic operations; for that, we can only bitmask once
 and then use shifts to put the decoded bits at the right location in the final
 byte.
 
-# Masking the pixel only once
+## Masking the pixel only once
 
 After decoding PNG data with `lodepng`, we're left with a
 [`Bitmap<RGBA>`](https://docs.rs/lodepng/2.4.2/lodepng/struct.Bitmap.html)
@@ -150,7 +149,7 @@ for offset in 0..0x8000 {
 }
 ```
 
-# The Bit Manipulation Instruction set
+## The Bit Manipulation Instruction set
 
 Although I tried at first to write inline assembly with the `asm!` macro, it turns
 out this is not really a good idea because the compiler can't optimise your code
@@ -184,7 +183,7 @@ test pext32_bmi2      ... bench:      20,081 ns/iter (+/- 646)
 test pext64_bmi2      ... bench:      14,165 ns/iter (+/- 636)
 ```
 
-# Parallelizing even more
+## Parallelizing even more
 
 So, as it seems, the boost in performance did not come from `PEXT` alone,
 but with the fact we are processing more than one pixel at a time. Luckily, this
@@ -216,7 +215,7 @@ do. The only time we can do better is when BMI2 is available and not AVX...
 ...but that never happens since the AVX2 instruction set is older than the BMI2
 one, so any recent CPU has both of these. *\*Sigh.\**
 
-# Conclusion
+## Conclusion
 
 I tried some other implementations, some iterating in reversed order (hoping to
 replace an `inc/cmp/jne` block with a `dec/jnz` block), some shifting
