@@ -18,7 +18,7 @@ a .highlighter-rouge { color: rgba(255,204,102,0.8) } /* Inline code highlight i
 .highlight .o { color: #66cccc } /* Operator */
 .highlight .p { color: #cccccc } /* Punctuation */
 .highlight .cm { color: #999999 } /* Comment.Multiline */
-.highlight .cp { color: #999999 } /* Comment.Preproc */
+.highlight .cp { color: #cc99cc } /* Comment.Preproc */
 .highlight .c1 { color: #999999 } /* Comment.Single */
 .highlight .cs { color: #999999 } /* Comment.Special */
 .highlight .gd { color: #f2777a } /* Generic.Deleted */
