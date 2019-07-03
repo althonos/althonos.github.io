@@ -91,7 +91,7 @@ pre {
 		font-size: 14px;
 		color: rgba(255,255,255,0.4);
 }
-/* img {
+img {
     width: 80%;
     margin-left: 10%;
     border: 1px dashed rgba(255,255,255,0.5);
@@ -103,7 +103,8 @@ pre {
 table img {
     border: 0px;
     margin-left: 0;
-} */
+    padding: 2px;
+}
 iframe {
     width: 750px;
     height: 400px;

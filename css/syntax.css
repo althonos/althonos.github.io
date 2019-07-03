@@ -39,14 +39,14 @@ a .highlighter-rouge { color: rgba(255,204,102,0.8) } /* Inline code highlight i
 .highlight .s { color: #99cc99 } /* Literal.String */
 .highlight .na { color: #6699cc } /* Name.Attribute */
 .highlight .nb { color: #cccccc } /* Name.Builtin */
-.highlight .nc { color: #ffcc66 } /* Name.Class */
+.highlight .nc { color: #cccccc } /* Name.Class */
 .highlight .no { color: #f2777a } /* Name.Constant */
 .highlight .nd { color: #66cccc } /* Name.Decorator */
 .highlight .ni { color: #cccccc } /* Name.Entity */
 .highlight .ne { color: #f2777a } /* Name.Exception */
 .highlight .nf { color: #6699cc } /* Name.Function */
 .highlight .nl { color: #cccccc } /* Name.Label */
-.highlight .nn { color: #ffcc66 } /* Name.Namespace */
+.highlight .nn { color: #cccccc } /* Name.Namespace */
 .highlight .nx { color: #6699cc } /* Name.Other */
 .highlight .py { color: #cccccc } /* Name.Property */
 .highlight .nt { color: #66cccc } /* Name.Tag */
