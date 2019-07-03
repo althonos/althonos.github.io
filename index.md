@@ -2,7 +2,10 @@
 layout: content
 ---
 
-# Open-sourcing the PICO-8
+Hi! I'm Martin Larralde, a.k.a @althonos on all things digital, and this is my
+attempt at setting up a hacker blog.
+
+## Open-sourcing the PICO-8
 
 <ul class="posts">
     {% for post in site.categories.pico8 %}
@@ -20,7 +23,7 @@ layout: content
     {% endfor %}
 </ul>
 
-# Me
+## Me
 
 <ul class="posts">
     {% for post in site.categories.life %}
