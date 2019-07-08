@@ -7,8 +7,9 @@ attempt at setting up a hacker blog. I'm currently a graduate student in
 Bioinformatics and Biostatistics at the École Normale Supérieure Paris-Saclay.
 
 I'm interested in embedded systems, low-level programming, semantic web,
-ontologies. I'm currently having fun hacking my Nintendo Switch. Otherwise,
-you can find me at a post-punk concert or a new-wave nightclub in the Bay Area.
+ontologies. I'm currently having fun hacking my Nintendo Switch. When I'm not
+coding, you can find me at a post-punk concert or a new-wave nightclub in the
+Bay Area.
 
 ## Open-sourcing the PICO-8
 
