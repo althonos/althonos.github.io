@@ -8,7 +8,7 @@ categories:
 tags:
     - coding
     - rust
-    - C
+    - c
     - pico8
 ---
 
