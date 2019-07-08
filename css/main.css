@@ -91,6 +91,7 @@ pre {
 		font-size: 14px;
 		color: rgba(255,255,255,0.4);
 }
+
 img {
     width: 80%;
     margin-left: 10%;
@@ -100,11 +101,25 @@ img {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+img.fullwidth {
+    width:100%;
+    margin-left:0;
+
+}
+img.pixelated {
+    image-rendering:crisp-edges;
+    image-rendering:-moz-crisp-edges;
+    image-rendering:-o-crisp-edges;
+    image-rendering:-webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering:pixelated
+}
 table img {
     border: 0px;
     margin-left: 0;
     padding: 2px;
 }
+
 iframe {
     width: 750px;
     height: 400px;
@@ -115,6 +130,7 @@ iframe {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+
 .feed-recomendation {
 	border-top: 1px dashed rgba(255,255,255,0.5);
 	border-bottom: 1px dashed rgba(255,255,255,0.5);
