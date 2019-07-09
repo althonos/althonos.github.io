@@ -10,9 +10,9 @@ layout: page
         {% if page.author %} • {{ page.author }}{% endif %}
         {% if page.meta %} • {{ page.meta }}{% endif %}
         •
-        {% for category in page.tags %}
+        {% for tag in page.tags %}
         <span>
-          <a href="{{ 'categories/#' | append: category | relative_url }}" class="reserved">{{ category }}</a>{% if forloop.last != true %}, {% endif %}
+          <a href="{{ 'tags/#' | append: tag | relative_url }}" class="reserved">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
         </span>
         {% endfor %}
     </p>

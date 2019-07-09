@@ -6,22 +6,22 @@ permalink: /tags/
 
 <ul class="tag-box inline">
 {% assign list = site.tags | sort %}
-    {% for category in list %}
+    {% for tag in list %}
         <li>
-            <a href="#{{ category[0] }}">
-                {{ category[0] }}
+            <a href="#{{ tag[0] }}">
+                {{ tag[0] }}
             </a>
-            <span>({{ category[1].size }})</span>
+            <span>({{ tag[1].size }})</span>
         </li>
     {% endfor %}
 {% assign list = nil %}
 </ul>
 
 {% assign taglist = site.tags | sort %}
-{% for category in taglist %}
- <h2 id="{{ category[0] }}">{{ category[0] }}</h2>
+{% for tag in taglist %}
+ <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
  <ul class="post-list">
-  {% assign list = category[1] %}  
+  {% assign list = tag[1] %}  
   {% for post in list %}
    <li>
    <a href="{{ post.url }}">{{ post.title }}</a>

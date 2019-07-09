@@ -22,7 +22,7 @@ Bay Area.
             <br>
             @ {
             {% assign tag = post.tags | sort %}
-            {% for category in tag %}<span><a href="{{ 'categories' | relative_url }}/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
+            {% for t in tag %}<span><a href="{{ 'tags' | relative_url }}/#{{ t }}" class="reserved">{{ t }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
             {% assign tag = nil %}
             }
         </li>
@@ -40,7 +40,7 @@ Bay Area.
             <br>
             @ {
             {% assign tag = post.tags | sort %}
-            {% for category in tag %}<span><a href="{{ 'categories' | relative_url }}/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
+            {% for t in tag %}<span><a href="{{ 'tags' | relative_url }}/#{{ t }}" class="reserved">{{ t }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
             {% assign tag = nil %}
             }
         </li>
@@ -58,7 +58,7 @@ Bay Area.
             <br>
             @ {
             {% assign tag = post.tags | sort %}
-            {% for category in tag %}<span><a href="{{ 'categories' | relative_url }}/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
+            {% for t in tag %}<span><a href="{{ 'tags' | relative_url }}/#{{ t }}" class="reserved">{{ t }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
             {% assign tag = nil %}
             }
         </li>
