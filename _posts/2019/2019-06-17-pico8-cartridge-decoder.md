@@ -51,11 +51,11 @@ a PNG image instead, but that image actually contains the cartridge data itself!
   </tr>
   <tr>
     <td colspan="100%">
-      <p style="margin: 10px; text-align: justify;"><i>
+      <figcaption style="padding: 8px;">
         Some nice cartridges found online. If you take a closer look, you'll
         notice the gray area is actually not a flat color but show a lot of
         artifacts, as in a JPEG image, due to the hidden data described below.
-      </i></p>
+      </figcaption>
     </td>
   </tr>
 </table>

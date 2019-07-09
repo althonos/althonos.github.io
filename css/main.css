@@ -92,32 +92,34 @@ pre {
 		color: rgba(255,255,255,0.4);
 }
 
-img {
+figure {
     width: 80%;
     margin-left: 10%;
+    margin-top: 8px;
+    margin-bottom: 8px;
     border: 1px dashed rgba(255,255,255,0.5);
     padding: 8px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-img.fullwidth {
+figcaption {
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    padding: 2px;
+}
+.fullwidth {
     width:100%;
     margin-left:0;
-
 }
-img.pixelated {
+.pixelated {
     image-rendering:crisp-edges;
     image-rendering:-moz-crisp-edges;
     image-rendering:-o-crisp-edges;
     image-rendering:-webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering:pixelated
-}
-table img {
-    border: 0px;
-    margin-left: 0;
-    padding: 2px;
 }
 
 iframe {
@@ -148,6 +150,9 @@ table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
+}
+table img {
+    padding: 2px;
 }
 
 td {

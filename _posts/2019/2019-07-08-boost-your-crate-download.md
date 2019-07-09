@@ -44,4 +44,10 @@ Doing so in a project that depends on one of your crates will effectively
 increase your download stats (provided you are doing active development on
 the dependent project)!
 
-<img src="{{ 'images/2019/2019-07-08/downloads.png' | relative_url }}" class="fullwidth"/>
+<figure class="fullwidth">
+  <img src="{{ 'images/2019/2019-07-08/downloads.png' | relative_url }}" class="fullwidth"/>
+  <figcaption class="figure-caption">
+    A thousand downloads for a crate I'm the only one actually using? Hell yeah!
+    *please send help I shouldn't be excited about that*
+  </figcaption>
+</figure>
