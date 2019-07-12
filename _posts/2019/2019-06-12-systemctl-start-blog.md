@@ -4,7 +4,7 @@ title:	"systemctl start blog"
 date:	2019-06-12 12:00:00
 categories:
     - blog
-    - life
+    - misc
 tags:
     - misc
     - me
