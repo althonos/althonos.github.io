@@ -4,7 +4,7 @@ title:	"Boost your crates.io download stats with this one simple trick!"
 date:	2019-07-08 16:19:00
 categories:
     - blog
-    - devops
+    - dev
 tags:
     - travis-ci
     - rust

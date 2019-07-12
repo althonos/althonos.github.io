@@ -12,23 +12,23 @@ coding, playing videogames, or scouting the poetry section of my local
 bookstore, you can find me at a post-punk concert or a new-wave nightclub in
 the Bay Area.
 
-## Open-sourcing the PICO-8
+## PICO-8
 
 *A series of posts about the open-source PICO-8 emulator I am developing.*
 
 {% assign category = site.categories.pico8 %}
 {% include postblock.html %}
 
-## DevOps and automation
+## Development
 
 *Some tricks about software development I accumulated over the years.*
 
-{% assign category = site.categories.devops %}
+{% assign category = site.categories.dev %}
 {% include postblock.html %}
 
 ## Art
 
-*Some rants about art I enjoy (this includes video games and anime).*
+*Some rants about the various art forms I enjoy.*
 
 {% assign category = site.categories.videogames %}
 {% include postblock.html %}
