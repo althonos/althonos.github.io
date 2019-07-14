@@ -1,7 +1,7 @@
 ---
 layout: post
 title:	"How it all started: Golden Sun II - The Lost Age"
-date:	2019-07-08 16:19:00
+date:	2019-07-11 16:19:00
 categories:
     - blog
     - videogames
@@ -15,13 +15,13 @@ tags:
 *Or how this game introduced me to Final Fantasy.*
 
 As far as I can tell, I've always been playing JRPGs. I may have been watching
-my dad play [**Age of Empires**](https://en.wikipedia.org/wiki/Age_of_Empires_(video_game))
+my dad on [**Age of Empires**](https://en.wikipedia.org/wiki/Age_of_Empires_(video_game))
 before that, but the first game I enjoyed thoroughly by myself was
 [**Pokémon Yellow**](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Yellow_Version)
-on [Game Boy Color](https://bulbapedia.bulbagarden.net/wiki/Game_Boy_Color) I received as a
+on a [Game Boy Color](https://bulbapedia.bulbagarden.net/wiki/Game_Boy_Color) I received as a
 gift bundle from my step-dad for my 4th birthday. My mom was furious about that,
 but you could say he's the reason I started playing this kind of games in the
-first time. *I'm also one of these kids that trained a Pidgey to level 30
+first place! *I'm also one of these kids that trained a Pidgey to level 30
 because he could not beat Brock with his Pikachu...* I ended up selling it
 for pocket money when I was a tween, and I deeply regret it now.
 
@@ -37,8 +37,9 @@ the fictional monsters the game was about.
 Anyway, I can't remember how it happened, but I got
 [**Golden Sun II: The Lost Age**](https://www.ign.com/games/golden-sun-the-lost-age)
 when I was in primary school. Where my cousins were already playing on their
-Game Boy Advance for a while, I had to wait the release of the [Game Boy Advance
-SP](https://en.wikipedia.org/wiki/Game_Boy_Advance_SP) to transition to a new platform.
+[Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance) for a while,
+I had to wait until the release of the [Game Boy Advance SP](https://en.wikipedia.org/wiki/Game_Boy_Advance_SP)
+to transition to a new platform.
 The game released in Europe in September, so it's one the reasons I had not
 completed it over the course of the summer like young kids in America did that
 year of 2003.
@@ -58,9 +59,18 @@ first one, although I'd advise doing so in case you never played any of the two
 (let's not talk about [**Dark Dawn**](https://www.ign.com/games/golden-sun-dark-dawn)
 right now). The art style and music were wonderful
 (especially for someone just leaving the Game Boy Color realm), and
-the story was captivating. There was this older guy in my school that I was not
-really a friend of, but had also the game, and was much more advanced than I
-was: we would talk about it from time to time, and he would give me tips on how
+the story was captivating.
+
+<figure class="fullwidth">
+  <img src="https://media.giphy.com/media/zcwqJBLdJJwHe/giphy.gif" class="fullwidth"/>
+  <figcaption class="figure-caption">
+    I still love that kind of good old turn-based combat, honestly.
+  </figcaption>
+</figure>
+
+There was this older guy in my school that I was not
+really a friend of who had also the game, and he was much more advanced than I
+was. We would talk about it from time to time, and he would give me tips on how
 to do some stuff like collecting [Djinns](https://goldensun.fandom.com/wiki/Djinn)
 or facing a particular boss. I didn't know anything about Internet boards,
 let alone of strategy guides, but I managed to get to the final boss on top of
