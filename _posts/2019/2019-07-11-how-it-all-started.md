@@ -48,7 +48,7 @@ year of 2003.
   <img src="{{ 'images/2019/2019-07-11/venus-lighthouse.png' | relative_url }}" class="fullwidth"/>
   <figcaption class="figure-caption">
     The top of the Venus lighthouse from the original game. If you played that one, you can
-    probably <a href="https://www.youtube.com/watch?v=q5d1rrbNo3o&t=5s">hear this picture right now</a>.
+    probably <a href="https://www.youtube.com/watch?v=q5d1rrbNo3o">hear this picture right now</a>.
   </figcaption>
 </figure>
 
