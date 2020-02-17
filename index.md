@@ -33,6 +33,13 @@ the Bay Area.
 {% assign category = site.categories.videogames %}
 {% include postblock.html %}
 
+## Life
+
+*Some programmers might have a life. Here's mine.*
+
+{% assign category = site.categories.life %}
+{% include postblock.html %}
+
 ## Miscellaneous
 
 *Posts that do not belong anywhere else.*
