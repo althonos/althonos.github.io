@@ -63,5 +63,5 @@ academia is not going to ask what the **bus factor** of your project is, because
 [there is a high chance it's **one**](https://zenodo.org/record/495360)... or,
 more often: they do not even know your project.
 
-[**If nobody worries about you being hit by a but, who worries about you cutting
+[**If nobody worries about you being hit by a bus, who worries about you cutting
 your wrists open?**](https://www.registerednursing.org/suicide-rates-profession/)
