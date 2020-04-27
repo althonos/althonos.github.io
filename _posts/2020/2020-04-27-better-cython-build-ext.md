@@ -1,6 +1,6 @@
 ---
 layout: post
-title:	"Better setuptools integration for Cython project"
+title:	"Better setuptools integration for Cython projects"
 date:	2020-04-27 02:06:00
 categories:
     - blog
@@ -19,7 +19,7 @@ to use it, because it's basically letting you do all the stupid mistakes C progr
 you really feel like you're expanding on Python.
 
 
-## Compiling without optimizations in debug mode
+## Compiling without optimizations
 
 When you're developing a Cython extension, you end up compiling it a lot.
 Unfortunately, `setuptools` builds extensions with the
@@ -36,7 +36,6 @@ declaration to `setup.py`:
 from setuptools.command.build_ext import build_ext as _build_ext
 
 class build_ext(_build_ext):
-
     def build_extension(self, ext):
         if self.debug:
             ext.extra_compile_args.append("-O0")
@@ -102,7 +101,6 @@ import sys
 from setuptools.command.build_ext import build_ext as _build_ext
 
 class build_ext(_build_ext):
-
     def build_extension(self, ext):
         if self.debug:
             ext.extra_compile_args.append("-O0")
@@ -115,8 +113,8 @@ Note that we check for the platform before enabling the Cython trace, as line
 trace support is unavailable for other platforms such as PyPy.
 
 Congratulations! You can now measure the coverage on your Cython extension
-module with the two following lines (this uses `unittest` by you could use
-any test runner, really):
+module with the two following lines (using `unittest` like here, or any other
+test runner):
 ```console
 $ python setup.py build_ext --debug --inplace
 $ python -m coverage run -m unittest discover -vv
