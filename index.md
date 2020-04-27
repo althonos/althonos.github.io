@@ -14,11 +14,11 @@ coding, playing videogames, or scouting the poetry section of my local
 bookstore, you can find me at a post-punk concert or a new-wave nightclub in
 the Rhein-Neckar area, or sometimes in Paris.
 
-## PICO-8
+## Art
 
-*A series of posts about the open-source PICO-8 emulator I am developing.*
+*Some rants about the various art forms I enjoy.*
 
-{% assign category = site.categories.pico8 %}
+{% assign category = site.categories.videogames %}
 {% include postblock.html %}
 
 ## Development
@@ -26,13 +26,6 @@ the Rhein-Neckar area, or sometimes in Paris.
 *Some tricks about software development I accumulated over the years.*
 
 {% assign category = site.categories.dev %}
-{% include postblock.html %}
-
-## Art
-
-*Some rants about the various art forms I enjoy.*
-
-{% assign category = site.categories.videogames %}
 {% include postblock.html %}
 
 ## Life
@@ -47,4 +40,11 @@ the Rhein-Neckar area, or sometimes in Paris.
 *Posts that do not belong anywhere else.*
 
 {% assign category = site.categories.misc %}
+{% include postblock.html %}
+
+## PICO-8
+
+*A series of posts about the open-source PICO-8 emulator I am developing.*
+
+{% assign category = site.categories.pico8 %}
 {% include postblock.html %}

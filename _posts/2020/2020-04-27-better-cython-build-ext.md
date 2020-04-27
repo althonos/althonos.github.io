@@ -1,7 +1,7 @@
 ---
 layout: post
 title:	"Better setuptools integration for Cython project"
-date:	2020-02-17 17:22:00
+date:	2020-04-27 02:06:00
 categories:
     - blog
     - dev
